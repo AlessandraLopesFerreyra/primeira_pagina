@@ -1,5 +1,6 @@
 header{
     background-color: rgb(255, 206, 214);
+    position: relative;
 }
 main{
     background-color: rgba(255, 223, 227, 0.842);
@@ -9,7 +10,17 @@ footer{
     background-color: rgb(250, 130, 190);
 }
 .logoconfeit{
-    width: 200px;
+    width: 150px;
+}
+.carro{
+    width: 40px;
+    position: absolute;
+    right: 70px;
+}
+.config{
+    width: 40px;
+    position: absolute;
+    right: 10px;
 }
 h1{
     text-align: center;
@@ -20,9 +31,6 @@ h2{
 }
 h3{
     font-style: oblique;
-}
-.carro{
-    width: 50px;
 }
 body{
     background-color: rgb(226, 169, 197);
